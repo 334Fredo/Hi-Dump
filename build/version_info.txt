@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+# Metadonnees Windows de HiDump.exe (onglet Details des proprietes du fichier)
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(3, 0, 0, 0),
+    prodvers=(3, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040c04b0',
+        [StringStruct('CompanyName', 'HiGRID'),
+         StringStruct('FileDescription', 'Hi-Dump - convertisseur FLAC vers WAV et MP3'),
+         StringStruct('FileVersion', '3.0.0.0'),
+         StringStruct('InternalName', 'Hi-Dump'),
+         StringStruct('LegalCopyright', '© 2026 HiGRID - Tous droits reserves'),
+         StringStruct('LegalTrademarks', 'Hi-Dump™ et HiGRID™ sont des marques de HiGRID'),
+         StringStruct('OriginalFilename', 'Hi-Dump.exe'),
+         StringStruct('ProductName', 'Hi-Dump'),
+         StringStruct('ProductVersion', '3.0.0.0'),
+         StringStruct('Comments', 'Propriete exclusive de HiGRID. Reproduction et diffusion interdites sans autorisation ecrite.')])
+    ]),
+    VarFileInfo([VarStruct('Translation', [1036, 1200])])
+  ]
+)
